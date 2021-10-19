@@ -1,0 +1,15 @@
+.background{
+    background-image: url('../../Images/background/banner.jpg');
+    height: 50vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.welcome{
+    margin-top: 20px;
+}
+.dentist{
+    justify-content: center;
+    align-items: center;
+}

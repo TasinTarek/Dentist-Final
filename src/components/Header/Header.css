@@ -1,0 +1,16 @@
+.banner img{
+        width: 200px;
+        height: 100hv;
+}
+.items{
+    list-style: none;
+}
+.items a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.item{
+    justify-content: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
