@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
-        <div>
+        <div className="container">
             <div>
                 <h4>Create an Account</h4>
                 <form onSubmit="" >
-                    <input type="email" placeholder="Email" />
+                    <input className="p-2 m-2" type="email" placeholder="Email" />
                     <br />
-                    <input type="password"  placeholder="Password"/>
+                    <input className="p-2 m-2" type="password"  placeholder="Password"/>
                     <br />
-                    <input type="password"  placeholder="Confirm-Password"/>
+                    <input className="p-2 m-2" type="password"  placeholder="Confirm-Password"/>
                     <br />
                     <input className="mt-2" type="submit" placeholder="Submit" />
                 </form>

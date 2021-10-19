@@ -27,7 +27,7 @@ const Header = () => {
                                 <li className="item"><NavLink to="/contact">Contact</NavLink></li>
                                 <li className="item"><NavLink to="/appointment">Appointment</NavLink></li>
 
-                                <span>{user.displayName}</span>
+                                <span className="p-2">{user.displayName}</span>
 
                                 { user.email?
                                 <Button onClick={logOut}>Log Out</Button>

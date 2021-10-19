@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Doctor.css'
 
 const Doctor = (props) => {
@@ -12,7 +13,7 @@ const Doctor = (props) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <h6>{description}</h6>
-          <Button>Book Appointment</Button>
+          <Link to="/appointment">Book Appointment</Link>
         </Card.Body>
       </Card>
     </Col>  
