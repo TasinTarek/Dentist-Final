@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import image1 from '../../Images/banner (1).png'
 import image2 from '../../Images/banner (2).png'
 import image3 from '../../Images/banner (3).png'
+import './Banner.css'
 const Banner = () => {
     return (
         <>
@@ -14,9 +15,11 @@ const Banner = () => {
       src={image1}
       alt="First slide"
     />
-    <Carousel.Caption className="bannerimage">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <Carousel.Caption className="bannerimage ">
+    <div className="text-color">
+      <h3 >We Make Your Smile Healthy</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
       <Link to="/appointment">Book Now</Link>
     </Carousel.Caption>
   </Carousel.Item>
@@ -28,8 +31,10 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div className="text-color">
+      <h3 >We Make Your Smile Healthy</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
       <Link to="/appointment">Book Now</Link>
     </Carousel.Caption>
   </Carousel.Item>
@@ -41,8 +46,10 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+    <div className="text-color">
+      <h3 >We Make Your Smile Healthy</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
       <Link to="/appointment">Book Now</Link>
     </Carousel.Caption>
   </Carousel.Item>

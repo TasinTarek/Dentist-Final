@@ -1,11 +1,15 @@
 import React from 'react';
-
+import './Fototer.css'
 const Footer = () => {
     return (
         <div>
+            <div className="footer">
             <footer>
-            <h1>Ⓡ All Rights Reserved By Tasin Tarek</h1>
+            
+
+            <h6>Ⓡ All Rights Reserved By Tasin Tarek</h6>
             </footer>
+            </div>
         </div>
     );
 };

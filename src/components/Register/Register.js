@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
-        <div className="container">
-            <div>
+        <div >
+            <div >
                 <h4>Create an Account</h4>
                 <form onSubmit="" >
                     <input className="p-2 m-2" type="email" placeholder="Email" />

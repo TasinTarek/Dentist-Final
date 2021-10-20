@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import './Header.css'
 import logo from '../../Images/Logo/cover.png'
-import Banner from '../Banner/Banner';
-import useFirebase from '../../hooks/Userfirebase';
+
 import { Button } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
 const Header = () => {
 
     const {user,logOut} = useAuth();
     return (
-        <div className="sticky-top">
+        <div className="sticky-top headbang">
             <div className="menubar-container container ">
                 <div className="menubar">
                     <div className="row">

@@ -16,7 +16,7 @@ const Service = (props) => {
           <Card.Text>
             {description}
           </Card.Text>
-          <Link to="/appointment">Book Appointment</Link>
+          <Link to="/appointment">Details</Link>
         </Card.Body>
       </Card>
     </Col> 
